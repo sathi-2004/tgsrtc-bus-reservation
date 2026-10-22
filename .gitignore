@@ -1,0 +1,84 @@
+﻿# =============================================================================
+# TGSRTC Bus Reservation System - Root Git Ignore
+# =============================================================================
+
+# --- Environment & Secret Files (Never commit real secrets) ---
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+**/.env.*
+**/.env.local
+!**/.env.example
+*.pem
+*.key
+*.pkcs12
+*.p12
+*.jks
+
+# --- Node / Frontend Artifacts ---
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Java / Maven / Backend Artifacts ---
+target/
+backend/target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.mvn/timing.properties
+backend/.mvn/timing.properties
+
+# --- IDEs & Code Editors ---
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS-generated Files ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Log files & Crash Dumps ---
+logs/
+backend/logs/
+frontend/logs/
+*.log
+*.dump
+*.dumpstream
+
+# --- Temporary & Scratch Files ---
+tmp/
+temp/
+scratch/
+.system_generated/
