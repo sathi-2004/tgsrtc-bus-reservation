@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# TGSRTC Online Bus Reservation & Fleet Management System
 
 A production-grade, full-stack bus reservation and fleet management system inspired by the **TGSRTC (Telangana State Road Transport Corporation)** booking portal.
@@ -174,3 +175,6 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 git branch -M main
 git push -u origin main
 ```
+=======
+# tgsrtc-bus-reservation
+>>>>>>> origin/main
